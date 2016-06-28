@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical">
+	
+	<TextView 
+	    android:layout_width="fill_parent"
+	    android:layout_height="55dp"
+	    android:background="#8866ff00"
+	    android:textSize="20sp"
+	    android:gravity="center"
+	    android:textColor="#000000"
+	    android:text="功能列表"/>
+	
+	<com.itheima.mobilesafe.ui.FocusedTextView 
+	    android:ellipsize="marquee"
+	    android:singleLine="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="发现最新手机卫士，快来下载也，下载送大礼包。送机票去韩国美容，发现最新手机卫士，快来下载也，下载送大礼包。送机票去韩国美容"
+        android:textColor="#000000"/>
+	
+	<GridView 
+	    android:id="@+id/list_home"
+	    android:layout_marginTop="15dip"
+	    android:verticalSpacing="15dip"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:numColumns="3"/>
+    
+</LinearLayout>
